@@ -1,0 +1,93 @@
+div{
+    background-color: orangered;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+
+button{
+   background-color: tomato;
+   color: white;
+}
+
+@media(max-width:550px){
+    h1{
+        color:green;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    p{
+        color:green;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    button{
+        color:green;
+        text-align: center;
+        font-size: 25px;
+     }
+
+}
+
+@media(min-width:600px){
+    h1{
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    p{
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+    button{
+        color: blue;
+        text-align: center;
+        font-size: 30px;
+     }
+
+}
+
+
+@media(min-width:700px){
+    h1{
+        color:greenyellow;
+        text-align: center;
+    }
+
+    p{
+        color:greenyellow;
+        text-align: center;   
+    }
+    button{
+        color: greenyellow;
+        text-align: center;
+     
+     }
+
+}
+
+@media(min-width:800px){
+    h1{
+        color:aquamarine;
+        text-align: center;
+    }
+
+    p{
+        color:aquamarine;
+        text-align: center;   
+    }
+    button{
+        color:aquamarine;
+        text-align: center;
+     
+     }
+
+}
